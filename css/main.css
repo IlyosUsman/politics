@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-political{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.last-info{
+    margin-right: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-text{
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.section-list{
+    padding: 0;
+    list-style-type: none;
+}
+.section-list-item{
+    margin-bottom: 18px;
+}
+.section-list-item-link{
+    display: flex;
+    text-decoration: none;
+}
+.section-list-item-img{
+    margin-right: 19px;
+    border-radius: 5px;
+}
+.box{
+    width: 512px;  
+}
+.box-header{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+.box-text{
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+}
+.box-date{
+    display: flex;
+}
+.box-date-icon{
+    margin-right: 4px;
+}
+.box-date-text{
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;    
+}
+.political-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    width: 212px;
+    background: #295093;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 32px; 
+    margin: auto;   
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.news-section{
+    width: 386px;
+    height: 572px;
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    /* align-items: center; */
+}
+.news-header-text{
+    margin-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+}
+.news-box{
+    margin-left: 20px;
+}
+.news-box-text{
+    margin-bottom: 11px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+.news-box-date{
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 17px; 
+    color: #7688A4;    
+}
+.news-box-liner{
+    margin-bottom: 18px;
+    width: 346px;
+    height: 4px;
+    background: #E4E4E4;    
+}
+.news-bottom{
+    margin-top: 35px;
+}
+.news-bottom-img{
+    border-radius: 5px;
+}
+.footer-site{
+    padding-bottom: 28px;
+    width: 100%;
+    background: #295093;
+}
+
+.footer-header{
+    display: flex;
+}
+.logo-img{
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+.footer-header-text{
+    margin-top: 29px;
+    margin-left: 198px;
+    width: 630px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.footer-info-text{
+    text-decoration: none;
+}
+.logo-pic{
+    display: flex;
+    margin-top: 18px;
+    width: 132px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.logo-icon{
+    margin-top: 9px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.footer-logo-text{
+    text-decoration: none;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+}
+.footer-liner{
+    display: inline-block;
+    border-radius: 5px;
+    width: 1180px;
+    height: 3px;
+    background: #133C82;
+    margin-bottom: 8px;
+}
+.footer-bottom-info{
+    display: flex;
+}
+.bottom-info-first{
+    width: 365px;
+    height: 121px;
+    color: #fff;
+    margin-right: 111px;
+    
+}
+.info-fist-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff; 
+}
+.bottom-first-list{
+    list-style-type: none;
+    margin-right: 115px;
+}
+.fist-list-item-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-secont-list{
+    list-style-type: none;    
+}
+.secont-list-item-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
